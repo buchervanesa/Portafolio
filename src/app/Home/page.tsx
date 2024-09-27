@@ -4,9 +4,9 @@ import { useEffect, useState } from 'react';
 import Projects from '../Projects/page';
 import vane from '../../../public/img/vanefotobien.png'
 import Image from 'next/image';
-import Contact  from '@/Components/Contact/contact';
-import About from '@/Components/About/about';
-import WorkExperience from '@/Components/experience/experience';
+import About from '../About/page';
+import WorkExperience from '../Experience/page';
+import Contact from '../Contact/page';
 export default function Home1() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -54,11 +54,10 @@ export default function Home1() {
 </div>
     </div> 
     <Projects />
-    <div><About/></div>
-    
-    <div><WorkExperience/></div>
-    
-    <div>  <Contact/></div>
+    <About/>
+    <WorkExperience/>
+    <Contact/>
+
  
   </div>
   );
