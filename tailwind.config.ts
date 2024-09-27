@@ -16,4 +16,9 @@ const config: Config = {
   },
   plugins: [],
 };
+
+// Añadir console.log para depurar las rutas de contenido
+console.log("Rutas de contenido de Tailwind:", config.content);
+
 export default config;
+
