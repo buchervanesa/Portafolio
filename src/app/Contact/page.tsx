@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <div>
       <section className=" text-center mt-10 p-10 ">

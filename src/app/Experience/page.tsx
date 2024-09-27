@@ -1,6 +1,6 @@
 import React from "react";
 
-export const WorkExperience = () => {
+const WorkExperience = () => {
   return (
     <div className="bg-gray-900">
       <section className="bg-gray-900 text-center p-9">
