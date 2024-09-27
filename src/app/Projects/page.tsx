@@ -1,32 +1,15 @@
+ /* eslint-disable @next/next/no-img-element */
 "use client";
-import { useEffect, useState } from "react";
 import Image from "next/image";
 import boda from "../../../public/img/boda.png";
 import abogado from "../../../public/img/abogado.png";
 import electronica from "../../../public/img/electronica.png";
 import bp from "../../../public/img/bp.png";
 export default function Projects() {
-  const [isVisible, setIsVisible] = useState(false);
+ 
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setIsVisible(true);
-          }
-        });
-      },
-      { threshold: 0.2 } // El contenido se vuelve visible cuando el 20% está en pantalla
-    );
+ 
 
-    const section = document.querySelector("#proyectos");
-    if (section) observer.observe(section);
-
-    return () => {
-      if (section) observer.unobserve(section);
-    };
-  }, []);
 
   return (
 <div className="py-10 bg-gray-900 p-10">

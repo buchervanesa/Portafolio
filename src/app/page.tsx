@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Home1 from "./Home/page";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
