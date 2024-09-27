@@ -54,9 +54,12 @@ export default function Home1() {
 </div>
     </div> 
     <Projects />
-    <About/>
-    <WorkExperience/>
-   <Contact/>
+    <div><About/></div>
+    
+    <div><WorkExperience/></div>
+    
+    <div>  <Contact/></div>
+ 
   </div>
   );
 }  
