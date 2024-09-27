@@ -6,7 +6,7 @@ import vane from '../../../public/img/vanefotobien.png'
 import Image from 'next/image';
 import Contact  from '@/Components/Contact/contact';
 import About from '@/Components/About/about';
-import WorkExperience from '@/Components/experience/EXperience';
+import WorkExperience from '@/Components/experience/experience';
 export default function Home1() {
   const [isVisible, setIsVisible] = useState(false);
 
