@@ -1,6 +1,6 @@
 import React from "react";
 
-export const WorkExperience = () => {
+const WorkExperience = () => {
   const jobs = [
     {
       title: "Desarrolladora Frontend Freelance",
@@ -89,3 +89,4 @@ export const WorkExperience = () => {
     </div>
   );
 };
+export default WorkExperience;
