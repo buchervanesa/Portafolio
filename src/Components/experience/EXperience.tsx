@@ -7,8 +7,31 @@ export const WorkExperience = () => {
         <h2 className="text-4xl font-semibold text-gray-200 mb-6">Experiencia Laboral</h2>
         
         {/* Detalle de la experiencia laboral */}
-        <div className="mb-10">
+    
           {/* Primer trabajo */}
+          <div className="mb-10">
+          {/* Sofnet */}
+          <div className="mb-6">
+            <h3 className="text-2xl text-gray-300 font-bold">Desarrolladora Frontend Freelance</h3>
+            <p className="text-xl text-gray-400">Sofnet | Feb 2025 – Abr 2025 | Trabajo remoto (Perú)</p>
+            <p className="text-lg text-gray-400">
+              • Desarrollé el frontend de un sistema de gestión de agendas orientado al mercado chileno.<br />
+              • Implementé componentes reutilizables y páginas responsivas utilizando React.js y MUI Material.<br />
+              • Colaboré estrechamente con el equipo de backend para integrar APIs y optimizar la experiencia de usuario.<br />
+              • Participé en reuniones de planificación y seguimiento de proyecto, contribuyendo a mejorar los tiempos de entrega.
+            </p>
+          </div>
+
+          {/* InmoUp */}
+          <div className="mb-6">
+            <h3 className="text-2xl text-gray-300 font-bold">Front End</h3>
+            <p className="text-xl text-gray-400">InmoUp | Nov 2024 – Ene 2025 | Mendoza, Argentina</p>
+            <p className="text-lg text-gray-400">
+              • Contribuí en la integración y desarrollo de componentes reutilizables utilizando React 10.<br />
+              • Participé activamente en la estructuración de la página web, optimizando su diseño y funcionalidad.<br />
+              • Colaboré con el equipo mediante herramientas de gestión como Trello y Backlog, mejorando la comunicación y el flujo de trabajo.
+            </p>
+          </div>
           <div className="mb-6">
             <h3 className="text-2xl text-gray-300 font-bold">Desarrollador Frontend</h3>
             <p className="text-xl text-gray-400">Empresa BpVentures - Septiembre 2024 </p>
